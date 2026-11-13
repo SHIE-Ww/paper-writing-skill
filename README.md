@@ -1,8 +1,7 @@
 # Paper Writing Skill
 
-面向科研论文的轻量级 Agent Skill：**故事构建 → 分段写作 → 语言精修 → 框架图设计**。适用于 Codex、Claude Code 和其他支持 [Agent Skills](https://agentskills.io/specification) 的工具。
+面向科研论文的轻量级 Agent Skill：适用于 Codex、Claude Code 和其他支持 [Agent Skills](https://agentskills.io/specification) 的工具。
 
-> AI 辅助论证和表达，不代替作者提出研究贡献，也不编造文献、实验或结果。
 
 ## 功能
 
@@ -34,13 +33,13 @@ cp -R skills/paper-writing ~/.agents/skills/paper-writing
 ```
 
 ```text
-使用 paper-writing，只修改下面的引言段落。
+使用 paper-writing，只修改下面的段落。
 参考我提供的已定稿摘要和论文主线，保留技术事实和原意，
 标出逻辑跳跃与模板化表达；不要重写整章。
 ```
 
 ```text
-使用 paper-writing，基于摘要、引言和方法设计 5–6 种框架图布局。
+使用 paper-writing，基于我上传的已有章节设计 5–6 种框架图布局。
 先比较布局与信息流，不要虚构模块；再给出可编辑 PPT 的重绘步骤。
 ```
 
